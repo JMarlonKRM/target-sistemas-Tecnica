@@ -5,6 +5,7 @@ public class DesafioQuantidadeA {
         Scanner input = new Scanner(System.in);
         System.out.print("Informe a frase ou palavra: ");
         String str = input.nextLine();
+        input.close();
 
         int conta = 0;
         int contaa = 0;
